@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container center_div">
+
+        <div id="theme">Avengers GifTastic</div>
+        <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                    <form id="topics-form">
+                        <label for="topic-label"></label>
+                        <div id="topics"></div>
+                    </form>
+                </div>
+                
+                
+        </div>
+
+        <div class="row">
+            <div class='col-md-12'>
+                <input type="text" id="topic-input"></input>
+                <input id="add-topic" type="submit" value="Avengers Search"></input>
+                <br><br>
+            </div>
+        </div>
+
+        <div class="row" style="display:flex">
+            <div class="col-md-12">
+                <div id="topics-view"></div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./assets/ajax.js"></script>
+</body>
+
+</html>
